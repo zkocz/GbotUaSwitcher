@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Google Bot User-Agent switcher",
+  "version": "1.0",
+  "description": "Allows switching between the default user-agent and the Google Bot user-agent.",
+  "permissions": ["webRequest", "webRequestBlocking", "tabs", "<all_urls>"],
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "browser_action": {
+    "default_icon": {
+      "48": "icon-gray.png"
+    }
+  }
+}
+
